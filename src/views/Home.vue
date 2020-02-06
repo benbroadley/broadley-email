@@ -1,18 +1,26 @@
 <template>
-  <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png" />
-    <HelloWorld msg="Welcome to broadley.email" />
+  <div class="hello">
+    <Header />
+    <Section title="{ email: hello@broadley.email }" />
+    <Footer />
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue';
+import Header from '@/components/Header.vue';
+import Footer from '@/components/Footer.vue';
+import Section from '@/components/Section.vue';
 
 export default {
   name: 'home',
   components: {
-    HelloWorld,
+    Header,
+    Section,
+    Footer,
   },
 };
 </script>
+
+<style lang="less">
+</style>
