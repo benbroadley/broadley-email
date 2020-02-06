@@ -15,7 +15,7 @@ export default {
   background-image: url('../assets/bkgrnd.jpg');
 
   /* Full height */
-  height: 100vh;
+  height: 85vh;
 
   opacity: 0.95;
 
