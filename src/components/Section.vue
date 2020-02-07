@@ -18,6 +18,13 @@
       <br />}
       <br />
     </div>
+
+    <div class="content">
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint itaque excepturi culpa eum veniam, dicta atque et facere tempora ad reiciendis voluptatibus commodi delectus! Eveniet beatae tempore cupiditate sit nemo cumque velit laborum praesentium fugiat quibusdam placeat illum provident quisquam sequi adipisci, nesciunt assumenda quod incidunt et, non iste libero! Nobis, ducimus quo. Autem dolorum rerum quam at ducimus quod sequi placeat facilis distinctio sunt, a obcaecati consequuntur reprehenderit non ea doloribus consectetur? Earum suscipit consectetur porro at ab. Placeat cum facilis quisquam ipsam, molestias consectetur voluptates fugiat excepturi tenetur velit et dolores, sed iste omnis, sunt debitis aperiam. Recusandae!
+    </div>
+    <div class="content">
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint itaque excepturi culpa eum veniam, dicta atque et facere tempora ad reiciendis voluptatibus commodi delectus! Eveniet beatae tempore cupiditate sit nemo cumque velit laborum praesentium fugiat quibusdam placeat illum provident quisquam sequi adipisci, nesciunt assumenda quod incidunt et, non iste libero! Nobis, ducimus quo. Autem dolorum rerum quam at ducimus quod sequi placeat facilis distinctio sunt, a obcaecati consequuntur reprehenderit non ea doloribus consectetur? Earum suscipit consectetur porro at ab. Placeat cum facilis quisquam ipsam, molestias consectetur voluptates fugiat excepturi tenetur velit et dolores, sed iste omnis, sunt debitis aperiam. Recusandae!
+    </div>
   </div>
 </template>
 
@@ -40,6 +47,8 @@ export default {
   box-shadow: 0px 5px 15px 1px rgba(0, 0, 0, 0.5);
   background-color: #262626;
   color: #d3d3d3;
+  position: sticky;
+  top: 0;
 }
 
 .content {
